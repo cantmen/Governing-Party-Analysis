@@ -13,6 +13,8 @@ Gov.csv shows the governing parties in Canada from 1981 to 2019.
 
 ## Explanation
 By merging data frame files of GDP and Government, I created a new file in order to visulaize both data sets together.
+```ggplot(gdpgov, aes(x = Reference.period, y = Gross.domestic.product.at.market.prices, color = Government)) + geom_point()```
+![](Images/Gdp%20and%20Government%20Party.png)
 
 To be able to show how governing parties influenced GDP, I created a new data set that shows % growth rate of GDP throughout the years by using magrittr library.
 
