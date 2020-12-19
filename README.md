@@ -15,7 +15,7 @@ Gov.csv shows the governing parties in Canada from 1981 to 2019.
 By merging data frame files of GDP and Government, I created a new file in order to visulaize both data sets together.
 
 To be able to show how governing parties influenced GDP, I created a new data set that shows % growth rate of GDP throughout the years by using magrittr library.
-![](Images/Gdp%20and%20Government%20Party.png)
+
 
 The governing parties` influence on GDP can be seen from this plot: 
 
